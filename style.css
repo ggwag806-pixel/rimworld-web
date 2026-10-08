@@ -1,0 +1,196 @@
+/* 전체 웹사이트 기본 설정 */
+body {
+    margin: 0;
+    background-color: #1d211b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* 웹사이트 상단 */
+header {
+    height: 350px;
+    background-image: url("림월드.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #888888;
+}
+
+
+/* 사이트 제목 */
+header h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    margin: 0 0 15px 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* 제목 아래 문구 */
+header p {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* 메뉴 */
+nav {
+    background-color: #777777;
+    border: 1px solid #aaaaaa;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+/* 메뉴 링크 */
+nav a {
+    color: #b9dcff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+
+/* 메뉴에 마우스를 올렸을 때 */
+nav a:hover {
+    color: #285c91;
+    background-color: #d8ecff;
+}
+
+
+/* 본문 전체 */
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+/* 각각의 section */
+section {
+    background-color: #30452f;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+/* section 제목 */
+section h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #789078;
+    padding-bottom: 10px;
+}
+
+
+/* 본문 설명 */
+.description {
+    color: white;
+    text-align: center;
+    line-height: 2;
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+
+/* 주요 특징 목록 */
+#features ul {
+    color: #b8e0b4;
+    font-size: 17px;
+    line-height: 2;
+    padding-left: 25px;
+}
+
+
+/* 주요 특징 각각의 항목 */
+#features li {
+    margin-bottom: 10px;
+}
+
+
+/* 첫 번째 대표 이미지 */
+#intro img {
+    display: block;
+    width: 55%;
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+
+/* 플레이 화면 이미지 */
+#features img,
+#fun img {
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto 0 auto;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+
+/* 관련 링크 목록 */
+#links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+/* 관련 링크 버튼 */
+#links a {
+    display: inline-block;
+    color: #6fa8dc;
+    background-color: #202a20;
+    border: 1px solid #6fa8dc;
+    border-radius: 6px;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* 관련 링크에 마우스를 올렸을 때 */
+#links a:hover {
+    color: #d8ecff;
+    background-color: #285c91;
+}
+
+
+/* footer */
+footer {
+    background-color: #161916;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #777777;
+    margin-top: 30px;
+}
+
+
+/* footer 문단 */
+footer p {
+    margin: 5px;
+}
